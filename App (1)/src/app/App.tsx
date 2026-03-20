@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Brain, Zap, Eye, Target } from 'lucide-react';
+import { Brain, Zap, Eye, Target, Home } from 'lucide-react';
 import { ReflexTest } from './components/ReflexTest';
 import { ResponseTimeTest } from './components/ResponseTimeTest';
 import { MemoryTest } from './components/MemoryTest';
