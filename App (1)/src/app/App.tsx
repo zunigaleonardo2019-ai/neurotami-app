@@ -1,9 +1,7 @@
-import { useState } from 'react';
-import { Brain, Zap, Eye, Target, Home } from 'lucide-react';
-import { ReflexTest } from './components/ReflexTest';
-import { ResponseTimeTest } from './components/ResponseTimeTest';
-import { MemoryTest } from './components/MemoryTest';
-import { CoordinationTest } from './components/CoordinationTest';
+import { ReflexTest } from '../components/ReflexTest';
+import { ResponseTimeTest } from '../components/ResponseTimeTest';
+import { MemoryTest } from '../components/MemoryTest';
+import { CoordinationTest } from '../components/CoordinationTest';
 
 type TestType = 'home' | 'reflex' | 'response' | 'memory' | 'coordination';
 
