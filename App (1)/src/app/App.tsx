@@ -1,9 +1,7 @@
-import { useState } from 'react';
-import { Brain, Zap, Eye, Target } from 'lucide-react';
-import { ReflexTest } from '../components/ReflexTest';
-import { ResponseTimeTest } from '../components/ResponseTimeTest';
-import { MemoryTest } from '../components/MemoryTest';
-import { CoordinationTest } from '../components/CoordinationTest';;
+import { ReflexTest } from './components/ReflexTest';
+import { ResponseTimeTest } from './components/ResponseTimeTest';
+import { MemoryTest } from './components/MemoryTest';
+import { CoordinationTest } from './components/CoordinationTest';
 
 export default function App() {
   const [currentTest, setCurrentTest] = useState<TestType>('home');
