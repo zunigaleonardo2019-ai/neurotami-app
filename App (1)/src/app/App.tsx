@@ -2,7 +2,6 @@ import { ReflexTest } from '../components/ReflexTest';
 import { ResponseTimeTest } from '../components/ResponseTimeTest';
 import { MemoryTest } from '../components/MemoryTest';
 import { CoordinationTest } from '../components/CoordinationTest';
-
 type TestType = 'home' | 'reflex' | 'response' | 'memory' | 'coordination';
 
 export default function App() {
